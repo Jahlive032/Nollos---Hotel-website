@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.h1-font, 
+.h1-font:hover{
+    font-family: 'Merienda', sans-serif;
+    color: #0353a4;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number]{
+    -moz-appearance: textfield;
+    appearance: none;
+}
+
+.custom-bg{
+    background-color: #0077b6;
+}
+
+.custom-bg:hover{
+    background-color: #03045e;
+}
+
+.contain{
+    margin-top: -50px;
+    z-index: 2;
+    position: relative;
+}
+
+.h-line{
+    width: 150px;
+    margin: 0 auto;
+    height: 1.7px;
+}
+
+.pop:hover{
+    border-top-color: #0077b6 !important;
+    transform: scale(1.03);
+    transition: all 0.3s;
+}
+
+.pop1:hover{
+    border-top-color: #ffc300 !important;
+    transform: scale(1.03);
+    transition: all 0.3s;
+}
+
+.pop2:hover{
+    border-top-color: #16db65 !important;
+    transform: scale(1.03);
+    transition: all 0.3s;
+}
+
+.pop3:hover{
+    border-top-color: #ff0000 !important;
+    transform: scale(1.03);
+    transition: all 0.3s;
+}
+
+.pop4:hover{
+    border-top-color: #ff7b00 !important;
+    transform: scale(1.03);
+    transition: all 0.3s;
+}
+
+.pop5:hover{
+    border-top-color: #7678ed !important;
+    transform: scale(1.03);
+    transition: all 0.3s;
+}
+
+.box{
+    border-top-color: #0077b6 !important;
+}
+
+div.login-form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+}
+
+@media screen and (max-width: 575px){
+    .contain{
+        margin-top: 25px;
+        padding: 0 35px;
+    }
+}
